@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Unit 9 CSWDO</title>
+	<link rel="stylesheet" href="style.css"
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+    
+<section class="sub-header">
+	<nav>
+		<a href="index.html"><img src="http://www.ianmarcelo.c1.biz/logo-removebg-preview.png"</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="contact.html">CONTACTS</a></li>
+            </ul>
+        </div>
+            <i class="fa fa-times" onclick="showMenu()"></i>
+	</nav>
+    <h1>Our Services</h1>
+</section>
+
+<!--------Services-------->
+<section class="course">
+    <h1>Services We Offer</h1>
+    <p>We, from the Unit 9 offer services whether financial or psycological help for the citizens of Irisan, Baguio City..</p>
+    
+    <div class="row">
+        <div class="course-col">
+            <h3>Counseling</h3>
+            <p>For issues and problems that need to be fixed, we offer our service to help resolve the problem.</p>
+        </div>
+        <div class="course-col">
+            <h3>Financial</h3>
+            <p>We from the CSWDO Unit 9 offers services or to be more precise, offer help in way of scholarships and such.</p>
+        </div>
+        <div class="course-col">
+            <h3>Aid</h3>
+            <p>In times of crisis such as this pandemic, we provide help that is beneficial to every families.</p>
+        </div>
+    </div>
+</section>
+    
+<!------footer------>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>A project made for the Unit 9 Office Of CSWDO Baguio City.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twiter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made <i class="fa fa-heart-o"></i> by Fran Ian Marcelo</p>
+</section>
+    
+    
+    
+<!-------JavaScript for Toggle Menu----->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+        function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>
+
+</body>
+</html>
