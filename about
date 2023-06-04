@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Unit 9 CSWDO</title>
+	<link rel="stylesheet" href="style.css"
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+    
+<section class="sub-header">
+	<nav>
+		<a href="index.html"><img src="http://www.ianmarcelo.c1.biz/logo-removebg-preview.png"</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="contact.html">CONTACTS</a></li>
+            </ul>
+        </div>
+            <i class="fa fa-times" onclick="showMenu()"></i>
+	</nav>
+    <h1>About Us</h1>
+</section>
+
+<!--------about us content-------->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We offer our utmost services to your inquiries</h1>
+            <p>We provide you our services that would most likely resolve the problems you are currently experiencing at present. We assure you that we can provide solution to your problems.</p>
+            <a href="services.html" class="hero-btn red-btn">VISIT NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="http://www.ianmarcelo.c1.biz/cswdo.jpg">
+            <div class="layer">
+                <h3>Main Office</h3>
+            </div>
+        </div>
+        </div>
+</section>
+    
+<!-------About us----->
+<section class="facilities">
+    <h1>About Us</h1>
+    <p1>Vision, Mission, Core Values</p1>
+    
+    <div class="row">
+        <div class="course-col">
+            <h3>Vision</h3>
+            <p>We envision that the disadvantages , oppressed the poor and the powerless exploited davaoeños to become empowered productive and self reliant.</p>
+        </div>
+        <div class="course-col">
+            <h3>Mission</h3>
+            <p>A local social welfare agency that commits to deliver comprehensive and efficient delivery of social services by a competent social welfare team towards a self – reliant and gender- fair society.</p>
+        </div>
+        <div class="course-col">
+            <h3>Core Values</h3>
+            <p>C-Client Centered
+
+H–Hard Working
+<br>
+A-Accountability
+
+M–Multi-Skills
+<br>
+P–Patiences
+
+I–Integrity
+
+O–Openness
+<br>
+N–Nurturing Ability
+
+S–Spirituality</p>
+        </div>
+    </div>    
+</section>
+    
+<section class="campus">
+    <h1>Our Office Overview</h1>
+    <p1>For Clients to easily find our office.</p1>
+    
+    <div class="row">
+        <div class="campus-col">
+            <img src="http://www.ianmarcelo.c1.biz/farview.jpg">
+            <div class="layer">
+                <h3>Front-View</h3>
+            </div>
+        </div>
+                <div class="campus-col">
+            <img src="http://www.ianmarcelo.c1.biz/sideview.jpg">
+            <div class="layer">
+                <h3>Side-View</h3>
+            </div>
+        </div>
+                <div class="campus-col">
+            <img src="http://www.ianmarcelo.c1.biz/farfarview.jpg">
+            <div class="layer">
+                <h3>Full-View</h3>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<!------footer------>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>A project made for the Unit 9 Office Of CSWDO Baguio City.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twiter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made <i class="fa fa-heart-o"></i> by Fran Ian Marcelo</p>
+</section>
+    
+    
+    
+<!-------JavaScript for Toggle Menu----->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+        function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>
+
+</body>
+</html>
